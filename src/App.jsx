@@ -13,6 +13,7 @@ import { ManagementCommittee } from "./pages/managementCommittee"
 import { QuickSearch } from "./sidebar/quickSearch"
 import { OnThisPage } from "./sidebar/onThisPage"
 import { TeachingStaffPage } from "./pages/teachingStaff"
+import { FourOfour } from "./components/fourOfour"
 const App = () => {
   
 
@@ -30,6 +31,7 @@ const App = () => {
       <Route path="/contact-admins" element={<AdminsInfopage />}></Route>
       <Route path="/contact/management-committee" element={<ManagementCommittee />}></Route>
       <Route path="/contact/teaching-staff" element={<TeachingStaffPage />} />
+      <Route path="*" element={<FourOfour />} />
     </Routes>
     <Footer />
     

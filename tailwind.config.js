@@ -15,6 +15,7 @@ export default {
         secondary: ['Lato', 'sans-serif'],
         ceviche: ['Ceviche One', 'cursive'],
         pessero : ['Passero One', 'cursive'],
+        arvo : ['Arvo', 'serif'],
       },
       screens:{
         'xs': "360px",
@@ -53,6 +54,9 @@ export default {
         'spin-slow' : "spin 3s linear infinite",
         typing: "typing 2s steps(20) infinite alternate, blink .7s infinite"
       },
+      backgroundImage: theme => ({
+          'electrocuted': "url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif)",
+        })
       
     },
   },

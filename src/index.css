@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 /* font-family: 'Passero One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+/* font-family: 'Arvo', serif; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
