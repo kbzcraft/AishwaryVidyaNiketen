@@ -11,7 +11,7 @@ import AVNLogo from "/avn-logo.png";
 
 export const Navbar = () => {
   let links = [
-    {name:"Home", link:"/",options:false , hideOnSm:true },
+    {name:"Home", link:"/AishwaryVidyaNiketen/",options:false , hideOnSm:true },
     {name:"Programs", link:"/academic-programs", options:false, hideOnMd:true}, 
     {name:"Facilities", link:"/facilities", options:false},
     {name:"About", link:"/about-us", options:true,
