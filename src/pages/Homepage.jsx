@@ -42,7 +42,7 @@ export const HomePage = () => {
   }, [])
 
   return (
-    <main className='w-[96vw] max-w-[720px] mx-auto'>
+    <main className='w-[96vw] max-w-[800px] mx-auto'>
       <section className="my-8 mx-auto">
         <h1 className="sm:text-2xl md:text-3xl font-primary border-b-4 inline-block pr-4 border-secondary mb-2 cursor-default">Announcements:</h1>
         <AnnouncementSwiper />

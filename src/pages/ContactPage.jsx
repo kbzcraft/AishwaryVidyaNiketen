@@ -45,7 +45,7 @@ const handelMsgSubmit = (e) =>{
   e.preventDefault()
 }
   return (
-    <div className=' max-w-[720px] w-[96vw] mx-auto mt-4'>
+    <div className=' max-w-[800px] w-[96vw] mx-auto mt-4'>
       <div className="flex justify-between items-center max-w-[96vw] mx-auto ">
         <div>
           <h1 className=' font-primary text-primary tracking-tighter inline-block pr-4 mt-5 mb-o pb-0  text-3xl font-bold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white'>Get IN Touch</h1>

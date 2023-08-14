@@ -47,7 +47,7 @@ export const ProgramsPage = () => {
   ]
 
   return (
-    <main id='programs' className='max-w-[720px] mx-auto w-[96vw]'>
+    <main id='programs' className='max-w-[800px] mx-auto w-[96vw]'>
       <section id='programLists' className='mb-5' >
         <h1 className='font-primary text-primary text-xl font-bold md:text-2xl' >Our Academic Programs</h1>
         <ul className='grid grid-cols-2 gap-1 '>

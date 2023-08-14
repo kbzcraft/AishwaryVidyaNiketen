@@ -42,3 +42,5 @@ export const defaultUser = "https://iili.io/HD58Gaa.png";
 export  const extraClassroom ="https://iili.io/HD1stjV.jpg";
 export const studentPresentation="https://iili.io/HD1sZTQ.jpg";
 export const awardToStudents ="https://iili.io/HD1sLyx.jpg";
+export const transportationAVN = "https://iili.io/HDwjL9R.jpg";
+export const cafeteriaFake = "https://iili.io/HDwPGEv.jpg";

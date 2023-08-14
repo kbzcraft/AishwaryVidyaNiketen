@@ -62,7 +62,7 @@ export const RulesPage = () => {
       ];
 
   return (
-    <main className='max-w-[720px] w-[96vw] outline-1 mt-2  mx-auto'> 
+    <main className='max-w-[800px] w-[96vw] outline-1 mt-2  mx-auto'> 
         <h1 className="font-primary font-bold text-center tracking-tight  text-xl uppercase">RULES TO BE FOLLOWED BY STUDENTS: </h1>
         <h1 className='font-primary font-medium text-center tracking-tight'>(Student Code of Conduct)</h1>
         <ol className='pl-7 my-5'>

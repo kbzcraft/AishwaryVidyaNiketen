@@ -25,7 +25,7 @@ export const Footer = () => {
   ]
   return (
     <footer id='footerComponent' className=' w-full'>
-      <div className='max-w-[720px] mx-auto bg-primary p-2'>
+      <div className='max-w-[800px] mx-auto bg-primary p-2'>
       <div className='flex md:items-center items-start cursor-default '>
         <IoLocationSharp className='text-secondary mt-1' size={25}/>
         <h1 className='text-white font-primary'>Taranagar Road 5, Dhangadhi 10900, Nepal</h1>

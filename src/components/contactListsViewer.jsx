@@ -12,7 +12,7 @@ export const ContactListsViewer = (props) => {
     const imgSrc = props.data[profileIndex].img ? props.data[profileIndex].img : defaultUser;
 
   return (
-    <main className=' relative bg-white mx-auto w-[96vw] max-w-[720px] my-5 flex mdx:flex-row flex-col-reverse'>
+    <main className=' relative bg-white mx-auto w-[96vw] max-w-[800px] my-5 flex mdx:flex-row flex-col-reverse'>
         <section id='admins-info' className='my-5 shadow-xl rounded-md h-[80vh] overflow-y-scroll'>
             <h1 className='font-primary text-center font-bold'>{props.name}</h1>
             <ul className='grid gap-2 my-2 px-2'>

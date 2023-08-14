@@ -24,7 +24,7 @@ export const AboutUsPage = () => {
     "Tours, project works, field visits, case study, presentations, and seminars."
   ];
   return (
-    <main id='about-us' className=' max-w-[720px] w-[96vw] mx-auto'>
+    <main id='about-us' className=' max-w-[800px] w-[96vw] mx-auto'>
       <section id="overview">
         <div className='my-5'>
           <div className='relative'>

@@ -10,45 +10,51 @@ const facilitiesList = [
   {
     name:"Medical",
     icon: FaHandHoldingMedical,
+    link: "#medicalRoom"
   },
-  
   {
     name: "Science Lab",
-    icon: MdScience
+    icon: MdScience,
+    link: "#laboratery"
   },
   {
     name:"Library",
     icon:IoLibrary,
+    link: "#library"
   },
   {
     name:"Sports",
     icon: MdSportsCricket,
+    link:""
   },
   {
     name:"Transportation",
     icon:MdDirectionsBusFilled,
+    link:"#transportation"
   },
   {
     name: "Wifi",
-    icon:FaWifi
+    icon:FaWifi,
+    link:""
   },
   {
     name: "Cafeteria",
-    icon: IoFastFood
-  },
-  
-  
+    icon: IoFastFood,
+    link:"cafeteria"
+  },  
   {
     name: "ComputerLab",
-    icon: RiComputerFill
+    icon: RiComputerFill,
+    link: "#computerLab"
   },
   {
     name: "Hostel",
-    icon: FaHome
+    icon: FaHome,
+    link:""
   }
 ]
 
-export const Facilities = () => {
+export const Facilities = (props) => {
 
   
   return (
@@ -58,14 +64,23 @@ export const Facilities = () => {
       <Link to={'/facilities'} className=' text-blue-600 flex xs:text-base text-xs items-center'>View All <BsArrowRight /></Link>
     </div>
     <div id="quickLinks" className="xs:grid flex flex-wrap gap-2 xs:gap-0 items-center justify-evenly xs:justify-between xs:grid-cols-3 my-10 ">
-      {
-        facilitiesList.map((facilitie, index)=>(
-          <Link to={`/facilities`} key={index} className='flex xs:mx-auto flex-col hover:bg-slate-200 py-10 justify-center items-center md:w-[150px]'>
+      { !props.main && facilitiesList.map((facilitie, index)=>(
+          <Link to={'/facilities'} key={index} className='flex xs:mx-auto flex-col hover:bg-slate-200 py-10 justify-center items-center md:w-[150px]'>
             <div className=' h-[65px] w-[65px] rounded-full bg-slate-200 flex justify-center items-center'>
               <facilitie.icon size={25} className=' text-primary'/>
             </div>
             <h1 className='font-primary text-sm md:text-lg'>{facilitie.name}</h1>
           </Link>
+        ))
+      }
+      {
+        props.main && facilitiesList.map((facilitie, index)=>(
+          <a href={facilitie.link} key={index} className='flex xs:mx-auto flex-col hover:bg-slate-200 py-10 justify-center items-center md:w-[150px]'>
+            <div className=' h-[65px] w-[65px] rounded-full bg-slate-200 flex justify-center items-center'>
+              <facilitie.icon size={25} className=' text-primary'/>
+            </div>
+            <h1 className='font-primary text-sm md:text-lg'>{facilitie.name}</h1>
+          </a>
         ))
       }
     </div>
