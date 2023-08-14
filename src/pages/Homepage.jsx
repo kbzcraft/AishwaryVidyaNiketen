@@ -74,7 +74,7 @@ export const HomePage = () => {
       <SmallGallary />
       <section>
         <h1 className='font-bold font-primary my-1 text-2xl text-primary mt-5'>Visit Us:</h1>
-        <iframe className='w-[96vw] max-w-[720px] h-[310px] rounded-xl' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13997.275383475531!2d80.58847!3d28.7100158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ed29dea262c5%3A0x4639479958b80213!2sAishwarya%20Vidya%20Niketan%20Higher%20secondary%20school.!5e0!3m2!1sen!2snp!4v1691074372996!5m2!1sen!2snp" style={{border:"0"}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        <iframe className='w-[96vw] max-w-[800px] h-[310px] rounded-xl' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13997.275383475531!2d80.58847!3d28.7100158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ed29dea262c5%3A0x4639479958b80213!2sAishwarya%20Vidya%20Niketan%20Higher%20secondary%20school.!5e0!3m2!1sen!2snp!4v1691074372996!5m2!1sen!2snp" style={{border:"0"}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </section>
       
         <div className=' my-10 flex gap-0 mx-auto w-40 h-1'>
