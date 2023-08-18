@@ -11,22 +11,22 @@ import AVNLogo from "/avn-logo.png";
 
 export const Navbar = () => {
   let links = [
-    {name:"Home", link:"/AishwaryVidyaNiketen/",options:false , hideOnSm:true },
-    {name:"Programs", link:"/academic-programs", options:false, hideOnMd:true}, 
-    {name:"Facilities", link:"/facilities", options:false},
-    {name:"About", link:"/about-us", options:true,
+    {name:"Home", link:"/AishwaryVidyaNiketen",options:false , hideOnSm:true },
+    {name:"Programs", link:"AishwaryVidyaNiketen/academic-programs", options:false, hideOnMd:true}, 
+    {name:"Facilities", link:"AishwaryVidyaNiketen/facilities", options:false},
+    {name:"About", link:"AishwaryVidyaNiketen/about-us", options:true,
       childs:[
-        {name:"Overview", link:"/about-us"},
-        {name:"Rules & Regulations", link:"/law"},
-        {name:"Our Achivements", link:"/achivements"}
+        {name:"Overview", link:"/AishwaryVidyaNiketen/about-us"},
+        {name:"Rules & Regulations", link:"/AishwaryVidyaNiketen/law"},
+        {name:"Announcements", link:"/AishwaryVidyaNiketen/announcements"}
       ]
     },
-    {name:"Contacts", link:"/contact-us", options:true,
+    {name:"Contacts", link:"AishwaryVidyaNiketen/contact-us", options:true,
       childs:[
-        {name:"Contact Us", link:"/contact-us"},
-        {name:"Admins", link:"/contact-admins"},
-        {name:"Teaching Staff", link:"/contact/teaching-staff"},
-        {name:"Management Committee", link:"/contact/management-committee"},
+        {name:"Contact Us", link:"AishwaryVidyaNiketen/contact-us"},
+        {name:"Admins", link:"AishwaryVidyaNiketen/contact-admins"},
+        {name:"Teaching Staff", link:"AishwaryVidyaNiketen/contact/teaching-staff"},
+        {name:"Management Committee", link:"AishwaryVidyaNiketen/contact/management-committee"},
       ]
     },
     // {smOnly:true, }
@@ -67,7 +67,9 @@ export const Navbar = () => {
         <nav className=" z-50 w-full relative bg-primary font-primary h-[75px] flex items-center mx-auto ">
             <section className='max-w-7xl w-full flex justify-between mx-auto items-center px-3'>
               <div id="logos-avn" >
+                <Link to={'/AishwaryVidyaNiketen'}>
                   <img src={AVNLogo} alt="AVN" className='w-14 h-14'/>
+                </Link>
               </div>
               <div className='flex gap-4'>
 

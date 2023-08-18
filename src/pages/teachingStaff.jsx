@@ -102,7 +102,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 10,
+        id: 11,
         name: "Mr.Naresh Pant",
         address: "Dhangadhi,Kailali",
         email: "",
@@ -110,7 +110,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 11,
+        id: 12,
         name: "Mr. Chandra Narayan Thakur",
         address: "Dhangadhi-1,Kailali",
         email: "",
@@ -118,7 +118,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 12,
+        id: 13,
         name: "Mr. Raghu Bir Bhatta",
         address: "Dhangadhi-4,Kailali",
         email: "",
@@ -126,7 +126,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 13,
+        id: 14,
         name: "Mr.Liladhar Sapkota",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -134,7 +134,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 14,
+        id: 15,
         name: "Mr. Narayan Datta Awasthi",
         address: "Dhangadhi-4, Kailali",
         email: "",
@@ -142,7 +142,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 15,
+        id: 16,
         name: "Mr.Dharam Khadka",
         address: "Dhangadhi,Kailali",
         email: "",
@@ -150,7 +150,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 16,
+        id: 17,
         name: "Mr.Pushpa Raj Pandey",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -158,7 +158,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 17,
+        id: 18,
         name: "Mrs.Nanda Ter",
         address: "Mahendranagar, Kanchanpur",
         email: "",
@@ -166,7 +166,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 18,
+        id: 19,
         name: "Mrs.Tulashi Sharma",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -174,7 +174,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 19,
+        id: 20,
         name: "Mr. Khem Raj Pant",
         address: "Dhangadhi, Kailali",
         email: "kpant7@gmail.com",
@@ -182,7 +182,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 20,
+        id: 21,
         name: "Mrs. Chanda Pathak",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -190,7 +190,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 21,
+        id: 22,
         name: "Mr. Tek Adhikari",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -198,7 +198,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 22,
+        id: 23,
         name: "Mr. Narendra Bhatta",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -206,7 +206,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 23,
+        id: 24,
         name: "Mr. Jang Bahadur Kathayat",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -214,7 +214,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 24,
+        id: 25,
         name: "Mr. Anand Joshi",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -222,7 +222,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 25,
+        id: 26,
         name: "Mr. Manoj Ojha",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -230,7 +230,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 26,
+        id: 27,
         name: "Mr. Hari Prasad Bhatta",
         address: "Dhangadhi-1, Kailali",
         email: "",
@@ -238,7 +238,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 27,
+        id: 28,
         name: "Mr. Uttam Bhatta",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -246,7 +246,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 28,
+        id: 29,
         name: "Mr. Kamal Raj Joshi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -254,7 +254,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 29,
+        id: 30,
         name: "Mr. Dev Raj Ojha",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -262,7 +262,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 30,
+        id: 31,
         name: "Mr. Lakshendra Kadayat",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -270,7 +270,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 31,
+        id: 32,
         name: "Mr. Deepak Paudel",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -278,7 +278,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 32,
+        id: 33,
         name: "Mr. Bikash Singh",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -286,7 +286,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 33,
+        id: 34,
         name: "Mr. Bhan Bahadur Bist",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -294,7 +294,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 34,
+        id: 35,
         name: "Mr. Yadav Prasad Mishra",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -302,7 +302,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 35,
+        id: 36,
         name: "Mr. Indra Dev Bhatta",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -310,7 +310,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 36,
+        id: 37,
         name: "Mrs. Dipika Pandey",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -318,7 +318,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 37,
+        id: 38,
         name: "Mr. Manish Mudbhari",
         address: "Dhangadhi-1, Kailali",
         email: "",
@@ -326,7 +326,7 @@ const teachingStaffs = [
         designation: ""
     },
     {
-        id: 38,
+        id: 39,
         name: "Mrs. Radha Joshi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -334,7 +334,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 39,
+        id: 40,
         name: "Mr. Prem Nidhi Ojha",
         address: "Dhangadhi-5,Kailali",
         email: "premnidhi71@gmail.com",
@@ -342,7 +342,7 @@ const teachingStaffs = [
         designation: "Principal"
     },
     {
-        id: 40,
+        id: 41,
         name: "Mr. Sanjay Kumar Pant",
         address: "Dhangadhi-6,Kailali",
         email: "",
@@ -350,7 +350,7 @@ const teachingStaffs = [
         designation: "Vice-Principal"
     },
     {
-        id: 41,
+        id: 42,
         name: "Mr. Badri Prasad Paudel",
         address: "Dhangadhi-7,Kailali",
         email: "",
@@ -358,7 +358,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (Morning Shift) (11 & 12)"
     },
     {
-        id: 42,
+        id: 43,
         name: "Mr. Om Prakash Pandey",
         address: "Dhangadhi-8,Kailali",
         email: "",
@@ -366,7 +366,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (Day Shift) (11 & 12)"
     },
     {
-        id: 43,
+        id: 44,
         name: "Mr. Govind Prasad Joshi",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -374,7 +374,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (9 & 10)"
     },
     {
-        id: 44,
+        id: 45,
         name: "Miss.Khageshwari Awasthi",
         address: "Dhangadhi,Kailali",
         email: "",
@@ -382,7 +382,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (6 to 8)"
     },
     {
-        id: 45,
+        id: 46,
         name: "Mr. Manish Mudbhari",
         address: "Dhnagadhi,Kailali",
         email: "",
@@ -390,7 +390,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (1 to 5)"
     },
     {
-        id: 46,
+        id: 47,
         name: "Mrs. Manju Binadi",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -398,7 +398,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (PG to UKG)"
     },
     {
-        id: 47,
+        id: 48,
         name: "Mr. Dharma Dev Bhatta",
         address: "Dhangadhi-5,Kailali",
         email: "bhattadharmadev71@gmail.com",
@@ -406,7 +406,7 @@ const teachingStaffs = [
         designation: "Campus Chief"
     },
     {
-        id: 48,
+        id: 49,
         name: "Mr. Dabal Bahadur Bista",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -414,7 +414,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 49,
+        id: 50,
         name: "Mr.Naresh Pant",
         address: "Dhangadhi,Kailali",
         email: "",
@@ -422,7 +422,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 50,
+        id: 51,
         name: "Mr. Chandra Narayan Thakur",
         address: "Dhangadhi-1,Kailali",
         email: "",
@@ -430,7 +430,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 51,
+        id: 52,
         name: "Mr. Raghu Bir Bhatta",
         address: "Dhangadhi-4,Kailali",
         email: "",
@@ -438,7 +438,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 52,
+        id: 53,
         name: "Mr.Liladhar Sapkota",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -446,7 +446,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 53,
+        id: 54,
         name: "Mr. Narayan Datta Awasthi",
         address: "Dhangadhi-4, Kailali",
         email: "",
@@ -454,7 +454,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 54,
+        id: 55,
         name: "Mr.Dharam Khadka",
         address: "Dhangadhi,Kailali",
         email: "",
@@ -462,7 +462,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 55,
+        id: 56,
         name: "Mr.Pushpa Raj Pandey",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -470,7 +470,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 56,
+        id: 57,
         name: "Mrs.Nanda Ter",
         address: "Mahendranagar, Kanchanpur",
         email: "",
@@ -478,7 +478,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 57,
+        id: 58,
         name: "Mrs.Tulashi Sharma",
         address: "Dhangadhi-5,Kailali",
         email: "",
@@ -486,7 +486,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 58,
+        id: 59,
         name: "Mr. Khem Raj Pant",
         address: "Dhangadhi, Kailali",
         email: "kpant7@gmail.com",
@@ -494,7 +494,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 59,
+        id: 60,
         name: "Mrs. Chanda Pathak",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -502,7 +502,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 60,
+        id: 61,
         name: "Mr. Tek Adhikari",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -510,7 +510,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 61,
+        id: 62,
         name: "Mr. Narendra Bhatta",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -518,7 +518,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 62,
+        id: 63,
         name: "Mr. Jang Bahadur Kathayat",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -526,7 +526,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 63,
+        id: 64,
         name: "Mr. Anand Joshi",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -534,7 +534,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 64,
+        id: 65,
         name: "Mr. Manoj Ojha",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -542,7 +542,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 65,
+        id: 66,
         name: "Mr. Hari Prasad Bhatta",
         address: "Dhangadhi-1, Kailali",
         email: "",
@@ -550,7 +550,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 66,
+        id: 67,
         name: "Mr. Uttam Bhatta",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -558,7 +558,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 67,
+        id: 68,
         name: "Mr. Kamal Raj Joshi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -566,7 +566,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 68,
+        id: 69,
         name: "Mr. Dev Raj Ojha",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -574,7 +574,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 69,
+        id: 70,
         name: "Mr.Lakshendra Kadayat",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -582,7 +582,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 70,
+        id: 71,
         name: "Mr. Deepak Paudel",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -590,7 +590,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 71,
+        id: 72,
         name: "Mr. Bikash Singh",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -598,7 +598,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 72,
+        id: 73,
         name: "Mr. Bhan Bahadur Bist",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -606,7 +606,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 73,
+        id: 74,
         name: "Mr. Yadav Prasad Mishra",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -614,7 +614,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 74,
+        id: 75,
         name: "Mr. Indra Dev Bhatta",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -622,7 +622,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 75,
+        id: 76,
         name: "Mrs. Dipika Pandey",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -630,7 +630,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 76,
+        id: 77,
         name: "Mr. Manish Mudbhari",
         address: "Dhangadhi-1, Kailali",
         email: "",
@@ -638,7 +638,7 @@ const teachingStaffs = [
         designation: ""
     },
     {
-        id: 77,
+        id: 78,
         name: "Mrs. Radha Joshi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -646,7 +646,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 78,
+        id: 79,
         name: "Mr. Sanjay Kumar Pant",
         address: "Dhangadhi-6, Kailali",
         email: "",
@@ -654,7 +654,7 @@ const teachingStaffs = [
         designation: "Vice-Principal"
     },
     {
-        id: 79,
+        id: 80,
         name: "Mr. Badri Prasad Paudel",
         address: "Dhangadhi-7, Kailali",
         email: "",
@@ -662,7 +662,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (Morning Shift) (11 & 12)"
     },
     {
-        id: 80,
+        id: 81,
         name: "Mr. Om Prakash Pandey",
         address: "Dhangadhi-8, Kailali",
         email: "",
@@ -670,7 +670,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (Day Shift) (11 & 12)"
     },
     {
-        id: 81,
+        id: 82,
         name: "Mr. Govind Prasad Joshi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -678,7 +678,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (9 & 10)"
     },
     {
-        id: 82,
+        id: 83,
         name: "Miss.Khageshwari Awasthi",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -686,7 +686,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (6 to 8)"
     },
     {
-        id: 83,
+        id: 84,
         name: "Mr. Manish Mudbhari",
         address: "Dhnagadhi, Kailali",
         email: "",
@@ -694,7 +694,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (1 to 5)"
     },
     {
-        id: 84,
+        id: 85,
         name: "Mrs. Manju Binadi",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -702,7 +702,7 @@ const teachingStaffs = [
         designation: "Co-ordinator (PG to UKG)"
     },
     {
-        id: 85,
+        id: 86,
         name: "Mr. Dharma Dev Bhatta",
         address: "Dhangadhi-5, Kailali",
         email: "bhattadharmadev71@gmail.com",
@@ -710,7 +710,7 @@ const teachingStaffs = [
         designation: "Campus Chief"
     },
     {
-        id: 86,
+        id: 87,
         name: "Mr. Dabal Bahadur Bista",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -718,7 +718,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 87,
+        id: 88,
         name: "Mr.Naresh Pant",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -726,7 +726,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 88,
+        id: 89,
         name: "Mr. Chandra Narayan Thakur",
         address: "Dhangadhi-1, Kailali",
         email: "",
@@ -734,7 +734,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 89,
+        id: 90,
         name: "Mr. Raghu Bir Bhatta",
         address: "Dhangadhi-4, Kailali",
         email: "",
@@ -742,7 +742,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 90,
+        id: 91,
         name: "Mr.Liladhar Sapkota",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -750,7 +750,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 91,
+        id: 92,
         name: "Mr. Narayan Datta Awasthi",
         address: "Dhangadhi-4, Kailali",
         email: "",
@@ -758,7 +758,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 92,
+        id: 93,
         name: "Mr.Dharam Khadka",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -766,7 +766,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 93,
+        id: 94,
         name: "Mr.Pushpa Raj Pandey",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -774,7 +774,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 94,
+        id: 95,
         name: "Mrs.Nanda Ter",
         address: "Mahendranagar, Kanchanpur",
         email: "",
@@ -782,7 +782,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 95,
+        id: 96,
         name: "Mrs.Tulashi Sharma",
         address: "Dhangadhi-5, Kailali",
         email: "",
@@ -790,7 +790,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 96,
+        id: 97,
         name: "Mr. Khem Raj Pant",
         address: "Dhangadhi, Kailali",
         email: "kpant7@gmail.com",
@@ -798,7 +798,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 97,
+        id: 98,
         name: "Mrs. Chanda Pathak",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -806,7 +806,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 98,
+        id: 99,
         name: "Mr. Tek Adhikari",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -814,7 +814,7 @@ const teachingStaffs = [
         designation: "Teacher"
     },
     {
-        id: 99,
+        id: 100,
         name: "Mr. Narendra Bhatta",
         address: "Dhangadhi, Kailali",
         email: "",
@@ -823,12 +823,24 @@ const teachingStaffs = [
     }    
 ];
 
+// Remove duplicates based on the 'name' property
+const uniqueTeachingStaffs = teachingStaffs.filter(
+    (staff, index, self) =>
+        index === self.findIndex((s) => s.name === staff.name)
+);
 
+// Fix the indices and IDs
+const fixedTeachingStaffs = uniqueTeachingStaffs.map((staff, index) => ({
+    ...staff,
+    id: index,
+}));
 
-export const TeachingStaffPage = () => {
+const TeachingStaffPage = () => {
   return (
     <main>
-        <ContactListsViewer data={teachingStaffs} name="Teaching Staffs" />
+        <ContactListsViewer data={fixedTeachingStaffs} name="Teaching Staffs" />
     </main>
   )
 }
+
+export default TeachingStaffPage

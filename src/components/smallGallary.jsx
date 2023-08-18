@@ -1,10 +1,11 @@
 import React from 'react'
 import { AiOutlineRight } from "react-icons/ai";
 import { avnHistory, awardToStudents, extraClassroom, primarySchool, principle, studentPresentation } from "../imgLinks";
+import { TailwindLazyImg } from './LazyImg';
 
 export const SmallGallary = () => {
    const images = [
-      {url: avnHistory, alt:"AVN old students"},
+      {url: avnHistory, alt:"AVN old students", blurHash: 'LDJ7UHE2?G%Llo%2E$az.7t6^*E2'},
       {url: primarySchool, alt:"AVN primary level students"},
       {url: principle, alt:"principle of AVN"},
       {url: extraClassroom, alt:"AVN extra classroom activities"},
@@ -30,7 +31,8 @@ export const SmallGallary = () => {
          {
             images.map((img, index)=>(
                <li key={index} className=' bg-slate-600'>
-                  <img loading='lazy' src={img.url} alt={img.alt} className='h-full object-cover' />
+                  <TailwindLazyImg imgUrl={img.url} alt={img.alt} objPosition={'center'}/>
+                  {/* <img loading='lazy' src={img.url} alt={img.alt} className='h-full object-cover' /> */}
                </li>
             ))
          }

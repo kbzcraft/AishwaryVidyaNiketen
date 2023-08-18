@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { MrNripBahadurOdd, MrRajendraPrasadBhatta, MrSantoshMudbhari, MrsRitaBhandari, ProfDrHemRajPant, principle } from '../imgLinks';
 import { ContactListsViewer } from '../components/contactListsViewer';
 
-export const ManagementCommittee = () => {
+const ManagementCommittee = () => {
     const [profileIndex , setProfileIndex] = useState(0)
     
     const managementStaff = [
@@ -78,3 +78,5 @@ export const ManagementCommittee = () => {
     </>
   )
 }
+
+export default ManagementCommittee

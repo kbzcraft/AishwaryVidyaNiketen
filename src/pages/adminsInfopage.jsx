@@ -5,7 +5,7 @@ import { MrBharthariRamChaudhary, MrBhimRajPaudel, MrBirNarayanChaudhary, MrChet
 import { ContactListsViewer } from '../components/contactListsViewer';
 
 
-export const AdminsInfopage = () => {
+const AdminsInfopage = () => {
     
     const admins = [
         {
@@ -97,3 +97,5 @@ export const AdminsInfopage = () => {
     </>
   )
 }
+
+export default AdminsInfopage

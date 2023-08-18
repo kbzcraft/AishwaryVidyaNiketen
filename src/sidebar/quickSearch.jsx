@@ -1,19 +1,49 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
+import { useEffect } from 'react';
 import { BiSearch } from 'react-icons/bi';
+import { defaultUser } from '../imgLinks';
 
-export const QuickSearch = (props) => {
+const QuickSearch = (props) => {
     const [query, setQuery] = useState('');
     const [modalIsOpen, setModalIsOpen] = useState(false);
-
+    
     const filteredInfo = props.data.filter((data) => {
         return (
             data.designation.toLowerCase().includes(query.toLowerCase()) ||
             data.name.toLowerCase().includes(query.toLowerCase())
         );
     });
+    useEffect(()=>{
+        document.addEventListener("keyup", (e)=>{
+            
+            // console.log(e.key + " : " + e.keyCode);
+            if (e.altKey && e.keyCode === 75) {
+                setModalIsOpen(true)
+                
+            }
+
+            
+
+            if (e.keyCode ===27) {
+                setModalIsOpen(false);
+            }
+        })
+        return ()=>{
+            document.removeEventListener("keyup",()=>{});
+        } ;
+    },[])
+
+    useEffect(()=>{
+        if(modalIsOpen === true){
+            const searchRef = document.querySelector("#searchRef")
+            searchRef.focus();
+        }
+
+        return ()=>{}
+    },[modalIsOpen])
 
     return (
-        <aside id="sidebar-q" className="flex overflow-y-scroll">
+        <section id="sidebar-q" className="flex overflow-y-scroll">
             <button
                 onClick={() => {
                     setModalIsOpen(true);
@@ -24,7 +54,7 @@ export const QuickSearch = (props) => {
                     <BiSearch size={25} className="px-1 my-auto" />
                     <span className="font-secondary hidden my-auto md:inline-block">quick search</span>
                 </div>
-                <kbd className="hidden md:block">ctrl K</kbd>
+                <kbd className="hidden md:block">Alt K</kbd>
             </button>
             {modalIsOpen && (
                 <div
@@ -43,6 +73,7 @@ export const QuickSearch = (props) => {
                         <div className="flex gap-2 justify-between items-center h-10 border-b-2 border-slate-500">
                             <BiSearch size={25} className="p-1" />
                             <input
+                                id='searchRef'
                                 value={query}
                                 onChange={(e) => {
                                     setQuery(e.target.value);
@@ -65,21 +96,29 @@ export const QuickSearch = (props) => {
                             <h1>Results</h1>
                             <ul id="resultLists" className="gap-4 overflow-y-scroll md:max-h-[60vh] max-h-[65vh]">
                                 {filteredInfo.map((info, index) => (
-                                    <li key={index} className="cursor-pointer mb-1 hover:bg-slate-400 rounded-lg">
+                                    <li key={info.id} className="cursor-pointer mb-1 hover:bg-slate-400 rounded-lg">
                                         <a
                                             href="#profileCard"
                                             className="flex gap-1"
                                             onClick={() => {
-                                                props.onProfileIndexChange(index);
+                                                props.onProfileIndexChange(info.id);
                                                 setModalIsOpen(false);
                                             }}
                                         >
                                             <div className="img-div w-14 h-14 bg-slate-400 opacity-90 rounded-lg">
-                                                <img
+                                                {
+                                                    info.img ? <img
                                                     src={info.img}
                                                     alt=""
                                                     className="rounded-lg w-14 h-14 object-cover object-top"
-                                                />
+                                                /> :  <img
+                                                src= {defaultUser}
+                                                alt=""
+                                                className="rounded-lg w-14 h-14 object-cover object-top"
+                                            />
+                                                }
+                                                
+
                                             </div>
                                             <div className="info flex flex-col justify-center">
                                                 <h1 className="font-primary">{info.name}</h1>
@@ -93,6 +132,8 @@ export const QuickSearch = (props) => {
                     </div>
                 </div>
             )}
-        </aside>
+        </section>
     );
 };
+
+export default QuickSearch

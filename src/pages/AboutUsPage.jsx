@@ -11,7 +11,7 @@ import { OurVoices } from '../components/ourVoices';
 
 import { principle ,vicePrinciple ,overviewOfOrganization, avnHistory } from "../imgLinks";
 
-export const AboutUsPage = () => {
+const AboutUsPage = () => {
   const salientFeatures = [
     "Renowned and Experienced faculty members.",
     "Discipline and Perseverance as key motto.",
@@ -128,3 +128,5 @@ Since our foundation, we have established a reputation for entrepreneurial think
     </main>
   )
 }
+
+export default AboutUsPage

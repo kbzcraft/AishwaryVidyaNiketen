@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 import { defaultUser } from "./../imgLinks";
-import { QuickSearch } from '../sidebar/quickSearch';
+import QuickSearch  from '../sidebar/quickSearch';
 
 export const ContactListsViewer = (props) => {
 
@@ -19,7 +19,7 @@ export const ContactListsViewer = (props) => {
                 {
                     props.data.map((admin, index)=>(
                         <li key={index}>
-                            <a href="#profileCard" className=' rounded-lg hover:bg-slate-400 flex gap-1' onClick={()=>{setProfileIndex(index)}}>
+                            <a href="#profileCard" className=' rounded-lg hover:bg-slate-400 flex gap-1' onClick={()=>{setProfileIndex(admin.id)}}>
                             <div className="img-div w-14 h-14 bg-slate-400 opacity-90 rounded-lg">
                                 {
                                     !admin.img &&  <img src={defaultUser} alt=""  className='rounded-lg  w-14 h-14 object-cover object-top' />

@@ -6,7 +6,7 @@ import "./../App.css"
 import roundContactUs from "./../assets/contact.png"
 import { Footer } from '../components/footer';
 
-export const ContactPage = () => {
+const ContactPage = () => {
   const inputElement = useRef();
 const mainOffice = [
   {
@@ -183,3 +183,5 @@ const handelMsgSubmit = (e) =>{
     </div>
   )
 }
+
+export default ContactPage

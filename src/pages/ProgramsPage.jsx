@@ -2,7 +2,7 @@ import React from 'react'
 import { ImArrowUp } from "react-icons/im";
 
 
-export const ProgramsPage = () => {
+const ProgramsPage = () => {
 
   const programLists = [
     {
@@ -208,3 +208,5 @@ export const ProgramsPage = () => {
     </main>
   )
 }
+
+export default ProgramsPage

@@ -1,6 +1,5 @@
 import React from 'react'
-
-export const RulesPage = () => {
+const RulesPage = () => {
 
     const studentRules = [
         {
@@ -77,3 +76,5 @@ export const RulesPage = () => {
     </main>
   )
 }
+
+export default RulesPage

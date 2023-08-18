@@ -7,7 +7,10 @@ import { Facilities } from '../components/facilities';
 import { SmallGallary } from '../components/smallGallary';
 import { Footer } from '../components/footer';
 
-export const HomePage = () => {
+import { scienceSmall } from '../smallImgLinks';
+import { primarySchool, science } from '../imgLinks';
+
+const HomePage = () => {
   const [introText, setIntroText] = useState("")
   const introTexts = ["welcome","to","aishwarya","vidya","Welcome to Aishwarya Vidya"]
 
@@ -43,11 +46,12 @@ export const HomePage = () => {
 
   return (
     <main className='w-[96vw] max-w-[800px] mx-auto'>
-      <section className="my-8 mx-auto">
+
+      <section className="my-8 w-full max-w-[720px] aspect-video mx-auto">
         <h1 className="sm:text-2xl md:text-3xl font-primary border-b-4 inline-block pr-4 border-secondary mb-2 cursor-default">Announcements:</h1>
         <AnnouncementSwiper />
       </section>
-      <div className="intro max-w-[720px] w-[96vw] mx-auto grid gap-3">
+      <div className="intro max-w-[720px] w-[96vw] mt-2 mx-auto grid gap-3">
       <h1 className="text-3xl xs:text-4xl md:text-6xl  text-primary text-center font-primary uppercase font-black">{introText} <span className="niketen hidden bg-secondary">Niketen</span></h1>
       <p className="text-center font-secondary capitalize">The products of the institution both in national and international level are spreading the aroma of AVN with good name and fame. The devoted, study-oriented, successful and moral students are the identity of AVN. Conscious guardians, qualified and dedicated teachers and well-organized School Management Committee are key to success.</p>
       </div>
@@ -71,7 +75,9 @@ export const HomePage = () => {
       </ul>
 
       <Facilities />
+      <div id='quick-gallary'>
       <SmallGallary />
+      </div>
       <section>
         <h1 className='font-bold font-primary my-1 text-2xl text-primary mt-5'>Visit Us:</h1>
         <iframe className='w-[96vw] max-w-[800px] h-[320px] rounded-xl' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13997.275383475531!2d80.58847!3d28.7100158!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1ed29dea262c5%3A0x4639479958b80213!2sAishwarya%20Vidya%20Niketan%20Higher%20secondary%20school.!5e0!3m2!1sen!2snp!4v1691074372996!5m2!1sen!2snp" style={{border:"0"}} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
@@ -87,3 +93,4 @@ export const HomePage = () => {
   )
 }
 
+export default HomePage

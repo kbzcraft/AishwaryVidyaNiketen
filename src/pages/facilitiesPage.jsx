@@ -2,7 +2,7 @@ import React from 'react'
 import { Facilities } from '../components/facilities'
 import { cafeteriaFake, transportationAVN } from '../imgLinks'
 
-export const FacilitiesPage = () => {
+const FacilitiesPage = () => {
   return (
     <section className='max-w-[800px] w-[96vw] mx-auto mb-5'>
         <h1 className='font-primary font-semibold md:text-3xl text-2xl'>Our Facilities : </h1>
@@ -56,3 +56,5 @@ export const FacilitiesPage = () => {
     </section>
   )
 }
+
+export default  FacilitiesPage
