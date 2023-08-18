@@ -1,0 +1,1 @@
+#tailwindLazyLoadImgDiv{background-size:cover}#tailwindLazyLoadImg{width:100%;display:block;-o-object-fit:cover;object-fit:cover}#tailwindLazyLoadImgDiv>img{opacity:0;transition:opacity .2s ease-in-out}#tailwindLazyLoadImgDiv.imageHasBeenLoaded>img{opacity:1}

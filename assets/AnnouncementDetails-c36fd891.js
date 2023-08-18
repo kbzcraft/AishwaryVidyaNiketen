@@ -1,0 +1,1 @@
+import{u as a,j as t}from"./index-f652d27a.js";import{announcements as m}from"./AnnouncementPage-3a9f6724.js";const c=()=>{const e=a().ID,n=m.filter(s=>s.id===e);return t.jsx("main",{className:"max-w-[800px] mx-auto",children:n.map(s=>t.jsx("section",{children:s.details&&t.jsx(s.details,{})}))})};export{c as default};
